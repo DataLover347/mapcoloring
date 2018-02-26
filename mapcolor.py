@@ -111,8 +111,22 @@ class MapColor:
 
             You will need to add to this code and some helper methods
         '''
-
-
+        # helper functions: order_domain_values -- determines in what order a variable's values should be tried
+        
+#         if assignment is complete:
+#             return assignment
+#         var = select_unassigned_variable(csp, assignment)
+#         for each value in order_domain_values(var, assignment, csp):
+#             if value is consistent with assignment:
+#                 add {var=value} to assignment
+#                 inferences = inference(csp,var,assignment)
+#                 if inferences != failure:
+#                     add inferences to assignment
+#                     result = backtrack(assignment, csp)
+#                     if result != failure:
+#                         return result
+#             remove {var=value} and inferences from assignment
+#         return failure
         return None
 
 def main():
